@@ -1,13 +1,18 @@
-aside {
-    
-}
 
 
 section img {
     width: 100%;
 }
 
-.container div {
-    width: 100%;
-    text-align: center;
+.row {
+    border: 1px solid red;
+} 
+
+.col-4 {
+    border-right: 3px solid blue;
+    text-align: right;  
+}
+
+.row   {
+    margin: 10px;
 }
