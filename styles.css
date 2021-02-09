@@ -41,20 +41,51 @@ body {
   }
 
   .short-pic {
-      width: 100%;
-      height: 300px;
-  }
-
-  .ginger {
-    width: 40%;
-    height: 40%;
-  }
+    width: 100%;
+    height: 200px;
+}
 
  
 
+ 
 /* HERO STYLES */
 
 
+
+/* Media Queries */
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    .short-pic {
+        height: 150px;
+    }
+}
+
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    .short-pic {
+        height: 150px;
+    }
+
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    .long-pic {
+        width: 150px;
+        padding-right: 0px;
+        margin-left: -40px;
+        
+    }
+    .short-pic {
+        height: 75px;
+        width: 75px;
+        padding-bottom: 5px;
+        
+    }
+
+}
 
 
 
