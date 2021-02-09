@@ -9,14 +9,11 @@ body {
 }
 
 .row {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 20px;
 } 
 
-.col-4 {
-    border-right: 3px solid blue;
-    text-align: right;  
-}
+
 
 /* Header/Jumbotron Styles */
 .jumbotron {
@@ -36,19 +33,27 @@ body {
     color: white;
   }
 
-  .long-pic {
+.long-pic {
       width: 100%;
   }
 
-  .short-pic {
+.short-pic {
     width: 100%;
     height: 100%;
+    }
+
+/* Heading/title styles */
+.col-4 {
+    color: rgb(58, 60, 112);    
+    border-right: 3px solid rgb(21, 31, 75);
+    text-align: right;  
+   }
+   
 }
-
  
 
  
-/* HERO STYLES */
+
 
 
 
@@ -78,13 +83,20 @@ body {
         margin-left: -40px;
         
     }
+
     .short-pic {
         height: 100%;
         width: 200%;
-        padding-bottom:10px;
-       
-        
-        
+        padding-bottom:10px;      
+    }
+
+    .reach-out {
+        width: 50%;
+        margin-top: 10px;
+    }
+
+    .container .row .col-4 {
+        padding-top: 20px;
     }
 
 }
