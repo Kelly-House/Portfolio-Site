@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(212, 212, 212);
+    background-color:rgb(210 210 210 /80%);
 }
 
 .row {
@@ -26,14 +26,23 @@ body {
     right: auto;        
     text-align: center;
     top: 0%; 
-    background: rgba(112, 230, 141, 0.8);
+    background: rgba(31, 44, 74, 0.47);
     font-family: Arial,sans-serif;
-    color: #fff;
+    color: white;
     width: 70%; 
 }
 
 .box .text .small {
     width: 20%;
+}
+
+.jumbotron .box .text {
+    right: 0px;
+    top: 80%;
+}
+
+.ginger .text   {
+    margin: 5px;
 }
 
 .col-4 {
@@ -121,6 +130,8 @@ body {
     .box .text {
         width: 90px;
     }
+
+    
 
     
 
