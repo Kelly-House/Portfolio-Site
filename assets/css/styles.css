@@ -9,10 +9,18 @@ body {
 }
 
 .row {
-    /* border: 1px solid red; */
     margin: 20px;
 } 
 
+/* APPLY JUMBOTRON STYLES */
+.jumbotron {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+
+/* APPLY STYLES TO TEXT BOXES/IMGS */
 .box {
     position: relative;
     display: inline-block;
@@ -51,25 +59,13 @@ body {
     text-align: right;  
    }   
 
-/* Header/Jumbotron Styles */
-.jumbotron {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
+.col-12:hover, .col-5:hover {
+    opacity: 50%;
+}
+/* TEXT BOX STYLES END */
 
-.bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-    margin: 20px;
-    width:40%;
-    box-shadow: 3px 3px 3px 3px grey;    
-    background-color: #09041d;    
-    color: white;
-  }
 
-  /* Work Content Styles start  */
+/* WORK SECTION STYLES   */
 .long-pic {
       width: 100%;
       border-radius: 10px;
@@ -80,12 +76,7 @@ body {
     height: 100%;
     border-radius: 10px;
     }
-
-
-
-
  
-/* Media Queries */
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
@@ -129,12 +120,7 @@ body {
 
     .box .text {
         width: 90px;
-    }
-
-    
-
-    
-
+    } 
 }
 
 
